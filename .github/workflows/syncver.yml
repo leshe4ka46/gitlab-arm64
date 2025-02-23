@@ -9,6 +9,7 @@ on:
     paths:
       - .github/workflows/syncver.yml
       - check-update.py
+  workflow_dispatch:
 
 jobs:
   syncver:
